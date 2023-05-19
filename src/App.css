@@ -1,0 +1,64 @@
+.App {
+  display: flex;
+  width: 100vw;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+  background-color: #161616;
+  color: white;
+}
+
+.App form {
+  width: 500px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px
+}
+
+input, textarea{
+  width: 100%;
+  background-color: #313234;
+  border: 0;
+  color: white; 
+  padding: 5px;
+  border-radius: 5px;
+  font-family: Arial, sans-serif;
+  margin-top: 10px;
+}
+.input {
+  border-bottom: 1px solid #A82C2C;
+  }
+
+.values{
+  text-align: center;
+  width: 200px;
+}
+img{
+  border-radius: 50px;
+  width: 150px;
+}
+
+textarea {
+  width: 100%;
+  border-left: 1px solid #A82C2C;
+  resize: none;
+  width: 100%;
+}
+
+.btn{
+  background-color: #A82C2C;
+}
+
+.btn:hover{
+ background-color: green;
+}
+
+input:focus,
+  textarea:focus {
+  outline: none;
+}
+
+.container{
+  align-items: start;
+}
